@@ -1,0 +1,27 @@
+
+.auth_form {
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+.auth_btn {
+    /* background: #fff; */
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600 !important;
+}
+.auth_form p{
+    margin-top: 30px;
+}
+.auth_form p a{
+    color: rgba(255, 255, 255, 0.735);
+}
+.auth_form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
+}
+/* .form_group input {
+    width: 100%;
+    outline: none;
+    padding: .4rem;
+} */
