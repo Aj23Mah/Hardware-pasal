@@ -7,8 +7,6 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 
 import products from "./../assets/data/product";
-// const productImg01 = require("../images/double-sofa-01.png");
-// const products = require("../assets/data/product");
 
 const ProductDetails = () => {
   const { id } = useParams(); // Get the 'id' parameter from the URL
@@ -105,4 +103,6 @@ const ProductDetails = () => {
 // 1:17:52 => product details ma responsive css
 // 1:18-19 => product details ma review section
 // 1:26 => cart section
+
+//1:22:30 => db
 export default ProductDetails;
